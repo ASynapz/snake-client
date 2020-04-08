@@ -32,7 +32,7 @@ const handleUserInput = (key) => {
   }
 
   if (key === 'm') {
-    connection.write("Say: i am a snek");
+    connection.write("Say: SENDING IT");
   }
 
   // exits game when ctrl + c is pressed
