@@ -19,7 +19,7 @@ const connect = function() {
     // setInterval(() => {
     //   conn.write("Move: up");
     // }, 1000); // - move up one square (unless facing down)
-    conn.write("Name: Taha");
+    conn.write("Name: FULLSEND");
   });
   return conn;
 };
