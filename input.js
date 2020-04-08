@@ -9,7 +9,7 @@ function sendDelayedCommand(direction) {
     lastMove = direction;
     intervalId = setInterval(() => {
       connection.write(`Move: ${direction}`);
-    }, 50);
+    }, 100);
   }
 }
 
